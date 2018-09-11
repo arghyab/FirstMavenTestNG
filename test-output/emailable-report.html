@@ -31,16 +31,36 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">TestNgMavenTest</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">111.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">7.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">TestNgMavenTest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond</td><td><a href="#m1"><b>launchURL</b>  </a></td><td class="numi">1</td><td>1536696307014</td><td class="numi">81366</td></tr><tr class="passedodd"><td><a href="#m2"><b>continueTest</b>  </a></td><td class="numi">1</td><td>1536696388382</td><td class="numi">2435</td></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass</td><td><a href="#m1"><b>failTest</b>  </a></td><td class="numi">1</td><td>1536698073154</td><td class="numi">13</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass</td><td><a href="#m2"><b>skipTest</b>  </a></td><td class="numi">1</td><td>1536698073194</td><td class="numi">2</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass</td><td><a href="#m3"><b>passTest</b>  </a></td><td class="numi">1</td><td>1536698073190</td><td class="numi">2</td></tr>
 </table>
-<h1>TestNgMavenTest</h1>
-<h2 id="m1">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:launchURL</h2>
+<h1>Default test</h1>
+<h2 id="m1">ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass:failTest</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass.failTest(ExtentReportsClass.java:58)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:continueTest</h2>
+<h2 id="m2">ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass:skipTest</h2>
+<div style="padding-left:3em">
+<p>Skipping - This is not ready for testing </p>
+ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass.skipTest(ExtentReportsClass.java:65)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">ToolsQA_Mvn.DemoToolsQA.ExtentReportsClass:passTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

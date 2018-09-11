@@ -27,6 +27,7 @@ public class NewTestSecond {
 	
 	@BeforeClass
 	  public void beforeClass() {	   		
+		
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--start-maximized");
