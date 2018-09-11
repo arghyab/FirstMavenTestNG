@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoSuite" duration-ms="111603" started-at="2018-09-11T20:04:41Z" finished-at="2018-09-11T20:06:33Z">
+    <groups>
+    </groups>
+    <test name="TestNgMavenTest" duration-ms="111603" started-at="2018-09-11T20:04:41Z" finished-at="2018-09-11T20:06:33Z">
+      <class name="ToolsQA_Mvn.DemoToolsQA.NewTestSecond">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6a4f787b]" name="beforeClass" is-config="true" duration-ms="25346" started-at="2018-09-12T01:34:41Z" finished-at="2018-09-12T01:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6a4f787b]" name="launchURL" duration-ms="81366" started-at="2018-09-12T01:35:07Z" finished-at="2018-09-12T01:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="continueTest()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6a4f787b]" name="continueTest" duration-ms="2435" started-at="2018-09-12T01:36:28Z" finished-at="2018-09-12T01:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6a4f787b]" name="afterClass" is-config="true" duration-ms="2186" started-at="2018-09-12T01:36:30Z" finished-at="2018-09-12T01:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ToolsQA_Mvn.DemoToolsQA.NewTestSecond -->
+    </test> <!-- TestNgMavenTest -->
+  </suite> <!-- DemoSuite -->
+</testng-results>
