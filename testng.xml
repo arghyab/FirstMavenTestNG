@@ -4,7 +4,7 @@
   <test thread-count="5" name="TestNgMavenTest">
     <classes>
       <class name="ToolsQA_Mvn.DemoToolsQA.NewTestSecond"/>
-      <class name="ToolsQA_Mvn.DemoToolsQA.NewTestFirst"/>
+     <!--  <class name="ToolsQA_Mvn.DemoToolsQA.NewTestFirst"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- DemoSuite -->
