@@ -39,29 +39,29 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
-		    <groupId>io.github.bonigarcia</groupId>
-		    <artifactId>webdrivermanager</artifactId>
-		    <version>3.0.0</version>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 		<dependency>
-		    <groupId>org.seleniumhq.selenium</groupId>
-		    <artifactId>selenium-chrome-driver</artifactId>
-		    <version>3.14.0</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>3.14.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
 		<dependency>
-		    <groupId>org.slf4j</groupId>
-		    <artifactId>slf4j-simple</artifactId>
-		    <version>1.7.25</version>
-		    <scope>test</scope>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.25</version>
+			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 		<dependency>
-		    <groupId>com.aventstack</groupId>
-		    <artifactId>extentreports</artifactId>
-		    <version>3.1.5</version>
-		</dependency>		
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -75,6 +75,15 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>

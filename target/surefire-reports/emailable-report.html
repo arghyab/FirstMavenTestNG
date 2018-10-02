@@ -31,66 +31,19 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">TestNgMavenTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">132.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TestNgMavenTest</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">19.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">TestNgMavenTest &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">ToolsQA_Mvn.DemoToolsQA.NewTestSecond</td><td><a href="#m1"><b>beforeClass</b>  </a></td><td class="numi">1</td><td>1536778626517</td><td class="numi">0</td></tr>
-<tr><th colspan="4">TestNgMavenTest &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td rowspan="2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond</td><td><a href="#m2"><b>setup</b>  </a></td><td class="numi">2</td><td>1536778758459</td><td class="numi">4</td></tr><tr class="skippedodd"><td><a href="#m3"><b>afterClass</b>  </a></td><td class="numi">1</td><td>1536778758467</td><td class="numi">0</td></tr>
-<tr><th colspan="4">TestNgMavenTest &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond</td><td><a href="#m4"><b>launchURL</b>  </a></td><td class="numi">1</td><td>1536778758459</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m5"><b>continueTest</b>  </a></td><td class="numi">1</td><td>1536778758464</td><td class="numi">3</td></tr>
+<tr><th colspan="4">TestNgMavenTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond</td><td><a href="#m1"><b>launchURL</b>  </a></td><td class="numi">1</td><td>1538508722128</td><td class="numi">8617</td></tr><tr class="passedodd"><td><a href="#m2"><b>continueTest</b>  </a></td><td class="numi">1</td><td>1538508730746</td><td class="numi">28</td></tr>
+<tr class="passedeven"><td rowspan="1">ToolsQA_Mvn.DemoToolsQA.NewTestFirst</td><td><a href="#m3"><b>exampleOfTestNgMaven</b>  </a></td><td class="numi">1</td><td>1538508732262</td><td class="numi">0</td></tr>
 </table>
 <h1>TestNgMavenTest</h1>
-<h2 id="m1">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:beforeClass</h2>
-<div style="padding-left:3em">
-<p>unknown error: DevToolsActivePort file doesn&apos;t exist
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 73.25 seconds
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;LAPTOP-OJB47ORE&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: ChromeDriver</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
-<br/>at ToolsQA_Mvn.DemoToolsQA.NewTestSecond.beforeClass(NewTestSecond.java:45)
-<br/>28 lines not shown
-</div>
+<h2 id="m1">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:launchURL</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:setup</h2>
+<h2 id="m2">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:continueTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:setup</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:afterClass</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:continueTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">ToolsQA_Mvn.DemoToolsQA.NewTestSecond:launchURL</h2>
+<h2 id="m3">ToolsQA_Mvn.DemoToolsQA.NewTestFirst:exampleOfTestNgMaven</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
