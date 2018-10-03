@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoSuite" duration-ms="18964" started-at="2018-10-02T19:31:53Z" finished-at="2018-10-02T19:32:12Z">
+  <suite name="DemoSuite" duration-ms="25724" started-at="2018-10-03T08:06:14Z" finished-at="2018-10-03T08:06:39Z">
     <groups>
     </groups>
-    <test name="TestNgMavenTest" duration-ms="18964" started-at="2018-10-02T19:31:53Z" finished-at="2018-10-02T19:32:12Z">
+    <test name="TestNgMavenTest" duration-ms="25724" started-at="2018-10-03T08:06:14Z" finished-at="2018-10-03T08:06:39Z">
       <class name="ToolsQA_Mvn.DemoToolsQA.NewTestFirst">
-        <test-method status="PASS" signature="exampleOfTestNgMaven()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestFirst@5a61f5df]" name="exampleOfTestNgMaven" duration-ms="0" started-at="2018-10-03T01:02:12Z" finished-at="2018-10-03T01:02:12Z">
+        <test-method status="PASS" signature="exampleOfTestNgMaven()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestFirst@5a61f5df]" name="exampleOfTestNgMaven" duration-ms="0" started-at="2018-10-03T13:36:39Z" finished-at="2018-10-03T13:36:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exampleOfTestNgMaven -->
       </class> <!-- ToolsQA_Mvn.DemoToolsQA.NewTestFirst -->
       <class name="ToolsQA_Mvn.DemoToolsQA.NewTestSecond">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="beforeClass" is-config="true" duration-ms="8801" started-at="2018-10-03T01:01:53Z" finished-at="2018-10-03T01:02:02Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="beforeClass" is-config="true" duration-ms="11480" started-at="2018-10-03T13:36:14Z" finished-at="2018-10-03T13:36:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="launchURL()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="launchURL" duration-ms="8617" started-at="2018-10-03T01:02:02Z" finished-at="2018-10-03T01:02:10Z">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="launchURL" duration-ms="10947" started-at="2018-10-03T13:36:25Z" finished-at="2018-10-03T13:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method status="PASS" signature="continueTest()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="continueTest" duration-ms="28" started-at="2018-10-03T01:02:10Z" finished-at="2018-10-03T01:02:10Z">
+        <test-method status="PASS" signature="continueTest()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="continueTest" duration-ms="1666" started-at="2018-10-03T13:36:36Z" finished-at="2018-10-03T13:36:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continueTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="afterClass" is-config="true" duration-ms="1487" started-at="2018-10-03T01:02:10Z" finished-at="2018-10-03T01:02:12Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ToolsQA_Mvn.DemoToolsQA.NewTestSecond@6b143ee9]" name="afterClass" is-config="true" duration-ms="1602" started-at="2018-10-03T13:36:38Z" finished-at="2018-10-03T13:36:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
